@@ -1,1 +1,1 @@
-# homework-02-relaxr-landing-page
+# FEWD80 Homework #2 - Relaxr Landing Page 
