@@ -1,4 +1,4 @@
-#FEWD Week #2: Styling with CSS
+# FEWD80 Homework #2 - Relaxr Landing Page
 
 
 <br>
@@ -9,27 +9,10 @@
 ###Description 
 
 
-A hot, new NY Tech Startup, Relaxr, has approached you to help them develop a new landing page for their company. They've handed you the [design file](starter_code/design_file) for the site, along with the copy and assets. You need to take these files and turn it into a landing page.
+A hot, new NY Tech Startup, Relaxr, has approached you to help them develop a new landing page for their company. They've handed you the [design file](https://github.com/FEWD80/homework-02-relaxr-landing-page/blob/master/design_file.md) for the site, along with the copy and assets. You need to take these files and turn it into a landing page.
 
-![Relaxr Landing Page](starter_code/images/relaxr_landing.jpg)
+![Relaxr Landing Page](https://github.com/FEWD80/homework-02-relaxr-landing-page/blob/master/images/relaxr_landing.jpg)
 
-<br>
-
----
-
-
-###Real-World Applications
-
-
-- Build a website from a [design file](starter_code/design_file)
-- Integrate advanced CSS properties
-- Use HTML5 structural elements
-- Use CSS Resets to "normalize" the rendering of your page across different browsers
-- Use the Box Model to style element borders and structure your page
-- Create a page with a multi-column layout 
-
-
-<br>
 
 ---
 
@@ -45,8 +28,6 @@ A hot, new NY Tech Startup, Relaxr, has approached you to help them develop a ne
 - Use float/clear or the width property to create more than one column on your page
 
 
-<br>
-
 ---
 
 ###Resources
@@ -56,16 +37,5 @@ A hot, new NY Tech Startup, Relaxr, has approached you to help them develop a ne
 - [Box Model Breakdown](http://learn.shayhowe.com/html-css/opening-the-box-model/)
 - [CSS Tricks difference between IDs and Classes](https://css-tricks.com/the-difference-between-id-and-class/)
 - [What is a CSS Reset?](http://www.cssreset.com/what-is-a-css-reset/)
-- Relaxr's design file found in today's class files at starter_code/relaxr/design_file
 
-
-
-
-<br>
-
----
-
-###Evaluation / Submission
-
-Students will create a new repository on GitHub called "homework-landingpage" and push their code to it when they are ready to submit. Instructional team should evaluate against the solution code and the student's use of technical elements. They will provide a numeric grade on a scale: does not meet expectations (0); meets expectations (1); exceeds expectations (2). Bonus sections are completely optional. The maximum possible score on this assignment is 14/14. 
 
