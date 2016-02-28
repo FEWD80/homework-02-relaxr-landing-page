@@ -1,30 +1,29 @@
 /*
-Project Name: Blank Template
+Project Name: Relaxr
 Client: Your Client
-Author: Your Name
+Author: Christopher Lindor
 Developer @GA in NYC
 */
 
-
 /******************************************
-/* SETUP
-/*******************************************/
+ SETUP
+*******************************************/
 
 /* Box Model Hack */
 * {
-     -moz-box-sizing: border-box; /* Firexfox */
-     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
-     box-sizing: border-box; /* IE */
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
 }
 
 /* Clear fix hack */
-.clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
+.clearfix::after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
 }
 
 .clear {
@@ -42,42 +41,153 @@ Developer @GA in NYC
 }
 
 /******************************************
-/* BASE STYLES
-/*******************************************/
+ BASE STYLES
+*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+  font-family: "Open Sans", sans-serif;
+  background-color: #f0efef;
 }
-
 
 /******************************************
-/* LAYOUT
-/*******************************************/
-
-/* Center the container */
-.container {
-  width: 960px;
-  margin: auto;
-  height: 500px;
-}
+ LAYOUT
+*******************************************/
 
 header {
+  background: url("../images/header_bg.jpg") no-repeat center top;
+  background-size: cover;
+  height: 900px;
+  width: 100%;
+}
 
+.content-width {
+  width: 960px;
+  margin: 0 auto;
+}
+
+h1 {
+  margin: 0;
+  padding: 40px 0 0 0;
+  font-size: 3em;
+  font-weight: 800;
+  color: rgb(255, 255, 255);
+}
+
+h2 {
+  text-align: center;
+  font-size: 3em;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  margin: 100px 0;
+}
+
+header a:link {
+  height: 70px;
+  width: 250px;
+  text-align: center;
+  display: block;
+  background-color: #f9e42e;
+  padding: 15px 0 0 0;
+  text-decoration: none;
+  font-weight: 800;
+  color: #033048;
+  font-size: 1.7em;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+h3 {
+  font-weight: 600;
+  color: #033048;
+  font-size: 2.5em;
+}
+
+#quote-area {
+  background: url("../images/testimonial_bg.jpg") no-repeat top left;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+}
+
+blockquote {
+  font-weight: 300;
+  color: hsl(0, 0%, 100%);
+  font-size: 2.3em;
+  font-style: italic;
+  padding: 50px 0 0 0;
+  margin: 0;
+}
+
+#quote-area section {
+  width: 670px;
+  text-align: center;
+}
+
+#quote-area h3 {
+  font-size: 2.3em;
+  color: hsl(0, 0%, 100%);
+  margin: 0;
+}
+
+main section:first-child {
+  padding: 0 0 70px 0;
+}
+
+main ul,
+main p {
+  font-size: 1.5em;
+}
+
+main ul {
+  position: relative;
+  left: 60px;
+  margin: 40px 0 0 0;
+}
+
+#sign-up {
+  background: #f9e42e;
+  height: 150px;
+  text-align: center;
+  padding: 40px 0;
+}
+
+#sign-up a {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 1.7em;
+  border-radius: 5px;
+  background: #033048;
+  height: 70px;
+  width: 350px;
+  display: block;
+  margin: auto;
+  padding: 15px 0 0 0;
 }
 
 footer {
-
+  background: #121212;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin: 0;
 }
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+footer h1 {
+  color: #f9e42e;
+  padding: 50px 0;
+}
 
+footer ul li {
+  list-style: none;
+  display: inline;
+}
 
+footer li {
+  margin: 0 30px 0 0;
+}
 
-
+footer p {
+  padding: 60px 0 50px 0;
+  margin: 0;
+}
