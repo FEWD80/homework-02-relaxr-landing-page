@@ -1,22 +1,16 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
+Project Name: Relaxr Landing Page
+Client: Relaxr
+Author: Dani Kim
+Developer @ General Assembly in NYC
 */
 
-
-/******************************************
-/* SETUP
-/*******************************************/
-
-/* Box Model Hack */
+/* Box model hack */
 * {
      -moz-box-sizing: border-box; /* Firexfox */
      -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
      box-sizing: border-box; /* IE */
 }
-
 /* Clear fix hack */
 .clearfix:after {
      content: ".";
@@ -26,58 +20,126 @@ Developer @GA in NYC
      line-height: 0;
      height: 0;
 }
-
 .clear {
   clear: both;
 }
-
 .alignright {
   float: right;
   padding: 0 0 10px 10px; /* note the padding around a right floated image */
 }
-
 .alignleft {
   float: left;
   padding: 0 10px 10px 0; /* note the padding around a left floated image */
 }
-
-/******************************************
-/* BASE STYLES
-/*******************************************/
-
 body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+  font-family: 'Open Sans', sans-serif;
 }
-
-
-/******************************************
-/* LAYOUT
-/*******************************************/
-
-/* Center the container */
-.container {
-  width: 960px;
+#container {
+/*  width: 960px;
   margin: auto;
-  height: 500px;
+  height: 500px;*/
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  margin-top: 0px;
+  height: 100vh;
 }
-
 header {
-
+  color: white;
 }
-
 footer {
-
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
 }
-
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
-
-
-
-
+h1 {
+  margin-left: 150px;
+  padding-top: 50px;
+  font-weight: 800;
+  font-size: 48px;
+}
+h2 {
+  font-weight: 600;
+  font-size: 48px;
+  text-align: center;
+  margin-top: 100px;
+}
+.get-it-now {
+  width: 100px;
+  margin: auto;
+  background: #f0efef
+  color: #121212;
+  border-radius: 5px;
+}
+.benefits {
+  background-color: #f0efef;
+  padding-bottom: 100px;
+}
+h3 {
+  width: 600px;
+  margin-left: 150px;
+  padding-top: 100px;
+  font-weight: 600;
+  font-size: 48px;
+  color: #033048;
+}
+p {
+  font-weight: 300;
+  font-size: 28px;
+  color: #606161;
+  width: 650px;
+  margin-left: 150px;
+  padding-top: 25px;
+  line-height: 1.5;
+}
+ul {
+  font-weight: 300;
+  font-size: 28px;
+  color: #606161;
+  width: 500px;
+  margin-left: 200px;
+  padding-top: 50px;
+  line-height: 1.5;
+}
+.testimonial {
+  background-image: url(../images/testimonial_bg.jpg);
+  padding-bottom: 100px;
+  opacity: 0.8;
+}
+p.quote {
+  text-align: center;
+  width: 500px;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 28px;
+  color: white;
+  padding-top: 100px;
+  margin: auto;
+}
+p.amanda {
+  text-align: center;
+  width: 500px;
+  font-weight: 600;
+  font-size: 28px;
+  color: white;
+  margin: auto;
+}
+.yellow {
+  background-color: #f9e42e;
+  height: 100px;
+}
+footer {
+  background-color: #121212;
+  opacity: 0.8;
+  color: white;
+  padding-bottom: 50px;
+}
+.logo {
+  margin: auto;
+  padding-top: 100px;
+  font-weight: 600;
+  font-size: 48px;
+  color: #f9e42e;
+}
+img {
+  padding: 50px 25px 50px 25px;
+}
