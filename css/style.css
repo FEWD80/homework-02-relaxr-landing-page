@@ -1,7 +1,7 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
+Project Name: Relaxr Landing Page Homework
+Client: Relaxr
+Author: Jane Mayer
 Developer @GA in NYC
 */
 
@@ -9,6 +9,7 @@ Developer @GA in NYC
 /******************************************
 /* SETUP
 /*******************************************/
+
 
 /* Box Model Hack */
 * {
@@ -46,33 +47,170 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+    width: 960px;
+    margin: auto;
+    height: 500px;
+    color: white;
+    font-size: 12px;
+    line-height: 1.4;
+    font-family: 'Open Sans', sans-serif;
 }
 
+div {
+  width: 960px;
+  margin: auto;
+  height: 300px;
+}
+
+ul {
+  list-style: circle;
+  list-style-position: inside;
+  text-indent: 25px;
+}
 
 /******************************************
 /* LAYOUT
 /*******************************************/
 
-/* Center the container */
-.container {
+header {
   width: 960px;
   margin: auto;
   height: 500px;
+  background-image: url(../images/header_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-header {
+h1 {
+  position: relative;
+  top: 50px;
+  left: 100px;
+  font-weight: 800;
+  font-size: 24px;
+}
 
+h2 {
+  position: relative;
+  top: 150px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+h3 {
+  color: #033048;
+  position: relative;
+  top: 200px;
+  margin: auto;
+  text-align: center;
+  line-height: 3em;
+  font-weight: 800;
+  font-size: 14px;
+  background: #f9e42e;
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.benefits {
+  color: #033048;
+  font-weight: 600;
+  font-size: 20px;
+  background: #f0efef;
+}
+
+#benefitstext {
+  position: relative;
+  top: 75px;
+  left: 100px;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 1.5em;
+  width: 400px;
+}
+
+.testimonials {
+  background-image: url(../images/testimonial_bg.jpg);
+  background-repeat: no-repeat;
+}
+
+#quote {
+  position: relative;
+  top: 85px;
+  margin: auto;
+  text-align: center;
+  width: 350px;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+#speaker {
+  position: relative;
+  top: 85px;
+  margin: auto;
+  text-align: center;
+  width: 300px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.signup {
+  background: #f9e42e;
+  height: 100px;
+  padding-top: 25px;
+}
+
+#signupbutton {
+  background: #033048;
+  text-align: center;
+  margin: auto;
+  line-height: 4em;
+  font-weight: 800;
+  font-size: 12px;
+  border-radius: 5px;
+  width: 200px;
+  letter-spacing: 1px;
+}
+
+#relaxr {
+  color: #f9e42e;
+  position: relative;
+  top: 30px;
+  text-align: center;
+  font-weight: 800;
+  font-size: 24px;
+  padding-bottom: 60px;
+}
+
+#twitter {
+  float: left;
+  margin-left: 430px;
+  padding-right: 30px;
+}
+
+#facebook {
+  float: both;
+}
+
+#copyright {
+  position: relative;
+  top: 30px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 9px;
+  padding-top: 5px;
 }
 
 footer {
-
+  width: 960px;
+  margin: auto;
+  background: #121212;
+  height: 200px;
 }
+
+
 
 /******************************************
 /* ADDITIONAL STYLES
