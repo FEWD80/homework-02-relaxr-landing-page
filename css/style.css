@@ -1,7 +1,7 @@
 /*
-Project Name: Blank Template
+Project Name: Relaxr
 Client: Your Client
-Author: Your Name
+Author: Gerrie Cho
 Developer @GA in NYC
 */
 
@@ -46,32 +46,150 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
+     /*color: #000;*/
+     /*font-size: 12px;*/
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+     /*font-family: Helvetica, Arial, sans-serif;*/
 }
 
 
 /******************************************
 /* LAYOUT
-/*******************************************/
+/******************************************
 
 /* Center the container */
-.container {
+#container {
   width: 960px;
   margin: auto;
+  /*height: 500px;*/
+  font-family: 'Open Sans', sans-serif; 
+}
+
+.header {
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  margin: auto;
   height: 500px;
+  color: #FFF;
+  padding: 35px 100px;
 }
 
-header {
-
+.relaxr {
+  font-weight: 800;
+  font-size: 24pt;
 }
 
-footer {
+h2 {  
+  padding-top: 80px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 24pt;
+}
 
+.button {
+  text-align: center;
+  padding: 10px;
+  display: block;
+  color: #000;
+  background: #f9e42e;
+  font-weight: 800;
+  font-size: 14px;
+  border-radius: 5px;
+  width: 200px;
+  height: 40px;
+  margin: auto;
+  margin-top: 60px;
+    }
+
+.summary {
+  margin: auto;
+  height: 400px;
+  background: #f0efef;
+  padding-left: 100px;
+  } 
+
+h3 {
+  font-weight: 600;
+  font-size: 20pt;
+  color: #033048; 
+  padding-top: 70px; 
+}
+
+.list {
+  font-weight: 300;
+  font-size: 13pt;
+  color: #606161;  
+}
+
+.list-p {
+  padding-top: 10pt;
+  padding-right: 320pt;
+  padding-bottom: 25pt;
+}
+
+ul {
+  list-style: initial;
+  padding-left: 50pt;
+  padding-right: 450px;
+}
+
+.quote {
+  background: url(../images/testimonial_bg.jpg) no-repeat center top;
+  background-size: cover;
+  margin: auto;
+  height: 320px;
+  text-align: center;
+  font-size: 18pt;
+  color: #FFF;
+  padding: 65px 275px;
+}
+
+.quote-p {
+  font-weight: 300;
+  font-style: italic;
+}
+
+.quote-author {
+  font-weight: 600;
+  padding-top: 10px;
+}
+
+.yellow {
+  background: #f9e42e;
+  height: 80px;
+  padding: 20px;
+}
+
+.button2 {
+    color: #FFF;
+    background: #033048;
+    font-size: 12px;
+    margin: 0 auto;
+    }
+
+.footer {
+  background: #000;
+  margin: 0 auto;
+  height: 250px;
+  text-align: center;
+}
+
+.footer-p {
+  color: #f9e42e;
+  padding: 40px;
+}
+
+.logo {
+  display: inline-block;
+  height: 25px;
+  padding: 0 15px
+}
+
+.copyright {
+  color: #FFF;
+  font-weight: 600;
+  font-size: 9px;
+  padding-top: 50px;
 }
 
 /******************************************
