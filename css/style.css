@@ -1,7 +1,7 @@
 /*
 Project Name: Blank Template
 Client: Your Client
-Author: Your Name
+Author: Michelle Park
 Developer @GA in NYC
 */
 
@@ -46,13 +46,15 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+  color: #000;
+  font-size: 12px;
+  line-height: 1.4;
+  font-family: Helvetica, Arial, sans-serif;
+  /*background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+    background-size: cover;*/
+  background-color: #121212;
 }
+
 
 
 /******************************************
@@ -60,24 +62,192 @@ body {
 /*******************************************/
 
 /* Center the container */
-.container {
+#container {
   width: 960px;
   margin: auto;
   height: 500px;
-}
-
-header {
 
 }
 
-footer {
-
-}
 
 /******************************************
-/* ADDITIONAL STYLES
+/* INTRO PAGE
 /*******************************************/
+.intro {
+  text-align: center; 
+  color: #fff;
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  width: 100%;
+  height: 550px;
+}
+
+.company-heading {
+  color: #fff;
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  padding-top: 30px;
+  padding-left: 85px;
+  float: left;  
+}
+
+.intro-text {
+  color: #fff;
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  text-align: center;
+  /*padding: 100px 0;*/
+  padding-top: 170px;
+  padding-bottom: 70px;
+}
+
+.button {
+  background-color: #f9e42e;
+  border: none;
+  border-radius: 5px;
+  color: #033048;
+  padding: 8px 45px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+}
 
 
+/******************************************
+/* BENEFITS SECTION
+/*******************************************/
+#benefits {
+  width: 100%;
+  height: 400px;
+  background-color: #f0efef;
+  padding: 70px 85px;
+}
 
+h2 {
+  color: #033048;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  padding-bottom: 12px;
+}
+
+p {
+  color: #606161;
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+ul {
+  padding: 25px 52px;
+  line-height: 25px;
+  
+}
+
+li {
+  list-style-type: disc;
+  list-style-position: inside;
+  color: #606161;
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+
+/******************************************
+/* QUOTES SECTION
+/*******************************************/
+#quote {
+  background: url(../images/testimonial_bg.jpg) no-repeat center bottom rgb(134,141,157);
+  width: 100%;
+  height: 250px;
+  padding-top: 60px;
+}
+
+#quote p {
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.no-italic {
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+/******************************************
+/* "SIGN UP NOW" SECTION
+/*******************************************/
+#sign-up {
+  width: 100%;
+  height: 97px;
+  background-color: #f9e42e;
+  padding: 28px 0px;
+  text-align: center;
+}
+
+.button-2 {
+  background-color: #000;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  padding: 10px 45px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+}
+
+
+/******************************************
+/* CONNECT TO TWITTER / FACEBOOK SECTION
+/*******************************************/
+#connect-sns {
+  width: 100%;
+  height: 210px;
+  background-color: #121212;
+  text-align: center;
+  padding: 35px 0px;
+}
+
+#connect-sns h1 {
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  color: #f9e42e;
+}
+
+#connect-sns img {
+  display: inline-block;
+  padding-top: 35px;
+  padding-right: 18px;
+  padding-bottom: 10px;
+}
+
+
+/******************************************
+/* FOOTER
+/*******************************************/
+#footer p {
+  color: #ffffff;
+  font-size: 9px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 35px;
+}
 
