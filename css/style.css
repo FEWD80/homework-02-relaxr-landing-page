@@ -16,7 +16,7 @@ Developer @GA in NYC
      box-sizing: border-box; /* IE */
 }
 
-/* Clear fix hack */
+/* Clear fix hack 
 .clearfix:after {
      content: ".";
      display: block;
@@ -32,13 +32,15 @@ Developer @GA in NYC
 
 .alignright {
   float: right;
-  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+  padding: 0 0 10px 10px; /* note the padding around a right floated image 
 }
 
 .alignleft {
   float: left;
-  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+  padding: 0 10px 10px 0; /* note the padding around a left floated image
 }
+
+*/
 
 /******************************************
 /* BASE STYLES
@@ -81,9 +83,11 @@ h1 {
 }
 
 h2 {
-  font-size: 5em;
-  font-weight: 300;
+  font-size: 4.8em;
+  font-weight: 400;
   padding: 50px 50px;
+ /* width: 900px;
+  margin: auto;*/
 }
 
 .button1 {
@@ -110,13 +114,13 @@ section {
   color: #606161;
   width: 100%;
   height: 614px;
-  padding: 30px 40px;
   line-height: 1.7;
 }
 
 section .text {
   width: 750px;
-  padding-left: 30px;
+  position: relative;
+  left: -110px;
   padding-top: 50px;
   margin: auto;
 }
@@ -126,7 +130,6 @@ h3 {
   font-size: 4em;
   color: #033048;
   text-align: left;
-
 }
 
 p {
@@ -153,7 +156,6 @@ blockquote {
   background-repeat: no-repeat;
   background-size: cover;
   height: 395px;
-
 }
 
 blockquote .text {
@@ -161,7 +163,6 @@ blockquote .text {
   margin: auto;
   padding: 80px;
   margin: auto;
-
 }
 
 .italic {
@@ -190,7 +191,7 @@ blockquote .text {
   border-radius: 5px;
   border: none;
   padding: 10px 30px;
-  width: 250px;
+  width: 300px;
   height: 60px;
   margin: 30px 0;
 }
@@ -202,13 +203,12 @@ blockquote .text {
   color: #fff;
 }
 
-
 /*FOOTER*/
 
 footer {
   background: #333;
   color: #606161;
-  height: 350px;
+  height: 345px;
 }
 
 footer h1 {
@@ -216,21 +216,21 @@ footer h1 {
   font-weight: 800;
   color: #f9e42e;
   text-align: center;
-}
-
-footer h5 {
-  font-size: 2em;
-  font-weight: 300;
-  text-align: center;
-  color: #fff;
-  margin: 70px 0 20px 0;
+  padding-top: 60px;
 }
 
 footer img {
-  height: 35px;
-  margin: 20px;
+  height: 30px;
+  margin: 20px 20px;
 }
 
+footer h5 {
+  font-size: 1.8em;
+  font-weight: 300;
+  text-align: center;
+  color: #fff;
+  padding: 45px 0;
+}
 /******************************************
 ADDITIONAL STYLES
 *****************************************/
