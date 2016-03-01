@@ -49,9 +49,9 @@ body {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+     font-family: 'Open Sans', sans-serif; 
+     margin: 0;
+     padding: 0;     
 }
 
 
@@ -60,18 +60,151 @@ body {
 /*******************************************/
 
 /* Center the container */
-.container {
+#container {
   width: 960px;
   margin: auto;
   height: 500px;
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
 }
 
 header {
-
+  color: white;
+  font-size: 24px;
 }
 
-footer {
+.intro {
+  height: 400px;
+}
 
+.intro h1 {
+  font-weight: bolder;
+  position: absolute;
+  padding-top: 20px;
+  padding-left: 45px;
+}
+
+.intro h2 {
+  position: absolute;
+  margin-top: 178px;
+  margin-left: 290px;
+}
+
+.intro button {
+  background: #f9e42e;
+  border: 5px;
+  font-size: 14px;
+  font-weight: bolder;
+  padding: 14px;
+  position: absolute;
+  margin-left: 380px;
+  margin-top: 226px;
+  width: 175px;
+  border-radius: 5px;
+  color: #033048;
+}
+
+.benefits {
+  background: #f0efef;
+  position: absolute;
+  width: 960px;
+  top: 400px;
+  height: 400px;
+}
+
+.benefits h2 {
+  font-weight: bold;
+  font-size: 20px;
+  color: #033048; 
+  position: absolute;
+  padding-top: 55px;
+  padding-left: 200px;
+}
+
+.benefitstext {
+  position: absolute;
+  padding-top: 88px;
+  padding-left: 181px;
+}
+
+.benefitstext h3, ul, li {
+  margin: 20px;
+  font-weight: lighter;
+  font-size: 13px;
+  color: #606161;
+}
+
+.testimonial {
+  background: url(../images/testimonial_bg.jpg);
+  position: absolute;
+  width: 960px;
+  top: 800px;
+  height: 200px;
+}
+
+.testimonial p {
+  color: white; 
+  font-size: 18px;
+}
+
+.testimonialtext {
+  width: 500px;
+  margin-left: 211px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.signup {
+  background: #f9e42e;
+  position: absolute;
+  width: 960px;
+  top: 1000px;
+  height: 100px;
+}
+
+.signup button {
+  background: #033048;
+  border: 5px;
+  font-size: 14px;
+  font-weight: bolder;
+  padding: 14px;
+  border-radius: 5px;
+  color: white;
+  position: absolute;
+  margin-left: 390px;
+  margin-top: 28px;
+}
+
+.close {
+  background: #121212;
+  position: absolute;
+  width: 960px;
+  top: 1100px;
+  height: 200px;
+  color: white;
+}
+
+.closetext {
+  margin-left: 400px;
+  margin-top: 20px;
+}
+
+.closetext h2 {
+  font-size: 24px;
+  font-weight: bolder;
+  color: #f9e42e;
+  padding-bottom: 40px;
+}
+
+.closetext img {
+  height: 30px;
+  padding: 5px;
+}
+
+.closetext footer {
+  font-size: 9px;
+  font-weight: bold;
+  padding-top: 60px;
 }
 
 /******************************************
