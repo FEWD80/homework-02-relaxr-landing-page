@@ -47,95 +47,83 @@ Developer @GA in NYC
 body {
      background: #f0efef;
      color: #fff;
-     font-size: 12px;
+     font-size: 10px;
      line-height: 1.4;
      font-family: 'Open Sans', sans-serif;
      background-size: cover;
      text-align: center;
 }
 
-
 /******************************************
-/* LAYOUT
-/*******************************************/
+LAYOUT
+/******************************************/
 
 /* Center the container */
 .container {
-
   width: 100%;
   margin: auto;
-
-
 }
 
 /* HEADER */
-header {
 
+header {
   background: url(../images/header_bg.jpg);
   background-position: center top;
-  background-repeat: no-repeat;
-  /*  background: rgb(134,141,157);*/
   background-size: cover;
-  height: 350px;
+  height: 648px;
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 4.5em;
   font-weight: 800;
   text-align: left;
-  padding: 20px 50px;
-  }
+  padding: 30px 120px;
+}
 
 h2 {
-
-  font-size: 24px;
+  font-size: 5em;
   font-weight: 300;
-  padding: 30px 50px;
-
+  padding: 50px 50px;
 }
 
 .button1 {
-
   background: #f9e42e;
   border-radius: 5px;
   border: none;
   padding: 5px 32px;
-
+  margin: 15px 0;
+  width: 250px;
+  height: 60px;
 }
 
 .button1 h4 {
-
   font-weight: 600;
   color: #033048;
-  font-size: 14px;
+  font-size: 2.5em;
   font-family: 'Open Sans', sans-serif;
-
 }
 
 /* BENEFITS */
 
 section {
-
   background: #f0efef;
   color: #606161;
   width: 100%;
-  height: 300px;
-  padding: 30px 75px;
+  height: 614px;
+  padding: 30px 40px;
   line-height: 1.7;
-
 }
-.text {
 
-  width: 500px;
-  padding: 0 85px;
+section .text {
+  width: 750px;
+  padding-left: 30px;
+  padding-top: 50px;
   margin: auto;
-
 }
 
 h3 {
-
   font-weight: 600;
-  font-size: 20px;
+  font-size: 4em;
   color: #033048;
   text-align: left;
 
@@ -143,121 +131,108 @@ h3 {
 
 p {
   font-weight: 300;
-  font-size: 14px;
+  font-size: 2.7em;
   text-align: left;
-
+  padding-right: 60px;
 }
 
 ul {
   font-weight: 300;
-  font-size: 13px;
+  font-size: 2.8em;
   text-align: left;
-  margin: 20px 40px;
+  padding-right: 60px;
+  margin: 40px 100px;
   line-height: 1.5;
-  font-size: 14px;
- /* width: 250px;*/
 }
 
 /* TESTIMONIAL */
 
 blockquote {
-
   background: url(../images/testimonial_bg.jpg);
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 220px;
-  padding: 50px 140px;
-
+  height: 395px;
 
 }
 
+blockquote .text {
+  width: 750px;
+  margin: auto;
+  padding: 80px;
+  margin: auto;
+
+}
 
 .italic {
-
   font-style: italic;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 3.2em;
   text-align: center;
-
 }
 
 .bold {
-
   font-weight: 600;
-  font-size: 18px;
+  font-size: 3.2em;
   text-align: center;
-
 }
 
 /*SIGN UP*/
 
 #register {
-
   background: #f9e42e;
-  height: 65px;
+  height: 120px;
   width: 100%
 }
 
 .button2 {
-
   background: #033048;
   border-radius: 5px;
   border: none;
-  padding: 5px 30px;
-  width: 175px;
-  margin: 20px 0;
-
+  padding: 10px 30px;
+  width: 250px;
+  height: 60px;
+  margin: 30px 0;
 }
 
 .button2 h4 {
-
-  font-size: 12px;
+  font-size: 2em;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
+  font-weight: 800;
   color: #fff;
-
 }
 
 
 /*FOOTER*/
 
 footer {
-
-  background: #121212;
+  background: #333;
   color: #606161;
-  height: 175px;
-
+  height: 350px;
 }
 
 footer h1 {
-  font-size: 24px;
+  font-size: 4.5em;
   font-weight: 800;
   color: #f9e42e;
   text-align: center;
-
 }
 
-footer p {
-
-  font-size: 9px;
-  font-weight: 600;
+footer h5 {
+  font-size: 2em;
+  font-weight: 300;
   text-align: center;
-  margin: 20px;
-
+  color: #fff;
+  margin: 70px 0 20px 0;
 }
 
 footer img {
-
-  height: 15px;
-  margin: 10px;
-
-
+  height: 35px;
+  margin: 20px;
 }
 
 /******************************************
-/* ADDITIONAL STYLES
-
-/*******************************************/
+ADDITIONAL STYLES
+*****************************************/
 
 
