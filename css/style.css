@@ -46,14 +46,87 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
+     font-family: 'Open Sans', sans-serif; /*??- Why doesn't this work?*/
      color: #000;
      font-size: 12px;
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
       background-size: cover;
 }
 
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+  color: white;
+  text-align: left;
+
+}
+
+h1.Peace {
+   font-weight: 600;
+   margin: auto;
+   margin-top: 50px;
+   text-align: center;
+}
+
+button {
+  background-color: yellow; 
+  color: darkblue;
+  margin: auto;
+  text-align: center;
+  display: block;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+h2 {
+  color: darkblue;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  padding-left: 40px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+p, ul {
+  font-size: 13px;
+  font-weight: 300;
+  color: gray;
+  padding-left: 40px;
+}
+
+.list {
+  margin-top:10px;
+  margin-left: 40px;
+}
+
+
+h3 {
+   margin: auto;
+
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 10%;
+
+
+    width: 20%;
+    height: 2%;
+    padding: 0;
+    border-radius: 8%;
+  
+}
+
+button.bluebutton {
+  background-color: darkblue;
+  color: yellow;
+  margin: 0;
+  padding-left: 100px;
+}
 
 /******************************************
 /* LAYOUT
@@ -61,9 +134,76 @@ body {
 
 /* Center the container */
 .container {
+  margin: 0 auto;
+  height: 400px;
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+
+}
+
+.Amanda{
+  margin: 0;
+  height: 400px;
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+}
+
+ p.quote {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 25px;
+}
+
+.yellow{
+  height: 100px;
+  background-color: yellow;
+  margin: 0 auto;
+
+
+}
+
+h4 {
+  font-weight: 600;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+}
+
+footer {
+
+  background-color: black;
+}
+
+.middle{
   width: 960px;
-  margin: auto;
-  height: 500px;
+  height: 270px;
+  background-color: lightgray;
+}
+
+.halfcontainer {
+  
+  margin:auto;
+  
+}
+
+.halfcontainer2{
+  width: 960px;
+  margin:auto;
+  height: 250px;
+  background-color: black;
+
+}
+
+.quartercontainer {
+
+  width: 960px;
+  margin:auto;
+  height: 125px;
+  
 }
 
 header {
