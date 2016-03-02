@@ -50,7 +50,8 @@ body {
      font-size: 12px;
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
-     
+     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+    background-size: cover;
 }
 
 
@@ -62,13 +63,11 @@ body {
 #container {
   width: 960px;
   margin: auto;
- 
+  height: 500px;
 }
 
 header {
-background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-background-size: cover;
-height: 500px;
+
 }
 
 footer {
