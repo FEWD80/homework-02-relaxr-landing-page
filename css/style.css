@@ -94,7 +94,7 @@ header {
   width: 100%;
 }
 
-header a:link {
+header a {
   height: 70px;
   width: 250px;
   text-align: center;
