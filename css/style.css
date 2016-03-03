@@ -1,82 +1,155 @@
-/*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
-*/
-
-
-/******************************************
-/* SETUP
-/*******************************************/
-
-/* Box Model Hack */
-* {
-     -moz-box-sizing: border-box; /* Firexfox */
-     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
-     box-sizing: border-box; /* IE */
-}
-
-/* Clear fix hack */
-.clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
-}
-
-.clear {
-  clear: both;
-}
-
-.alignright {
-  float: right;
-  padding: 0 0 10px 10px; /* note the padding around a right floated image */
-}
-
-.alignleft {
-  float: left;
-  padding: 0 10px 10px 0; /* note the padding around a left floated image */
-}
-
-/******************************************
-/* BASE STYLES
-/*******************************************/
-
 body {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+     font-family: 'Open Sans', serif;
 }
 
-
-/******************************************
-/* LAYOUT
-/*******************************************/
-
-/* Center the container */
 .container {
   width: 960px;
-  margin: auto;
-  height: 500px;
+  margin: 0 auto;
 }
 
-header {
-
+h1.header {
+  font-family: 'Open Sans', serif;
+  font-weight: 800;
+  font-size: 24px;
+  float: left;
+  padding: 0 0 0 80px;
+  color: #fff;
 }
 
-footer {
-
+h2.header {
+  font-family: 'Open Sans', serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  display: block;
+  padding: 120px 0 20px 0;
 }
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+h3 {
+  font-family: 'Open Sans', serif;
+  font-weight: 600;
+  font-size: 20px;  
+}
+
+button.getit {
+  font-family: 'Open Sans', serif;
+  font-weight: 600;
+  font-size: 14px;
+  background-color: #f9e42e;
+  padding: 8px 40px 8px 40px;
+  border-radius: 2px;
+  border: none;
+  margin: 0 auto;
+  display:block;
+}
+
+div.header {
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+      background-size: cover;
+  width: 100%;
+  height: 400px;
+}
+
+div.quote {
+  background: url(../images/testimonial_bg.jpg) no-repeat center top;
+      background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+p.quote {
+  color: #fff;
+  font-family: 'Open Sans', serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 13px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 40px 0 0 0;
+  width: 30%;
+}
+
+p.name {
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+div.benefits {
+  background-color: #f0efef;
+  padding: 30px 340px 0 80px;
+  color: #606161;
+  height: 100%;
+  margin: 0 auto;
+}
+
+ul {
+  margin-bottom: 100px;
+}
+
+div.yellow {
+  background-color: #f9e42e;
+  height: 100%;
+  padding: 2px;
+}
+
+button.signup {
+  font-family: 'Open Sans', serif;
+  font-weight: 600;
+  font-size: 10px;
+  background-color: #121212;
+  color: #fff;
+  padding: 5px 30px 5px 30px;
+  border-radius: 2px;
+  border: none;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.footer {
+  background-color: #121212;
+  height: 100%;
+  width: 100%;
+}
+
+h1.footer {
+  color: #f9e42e;
+  margin: 0 auto;
+  padding: 20px 0 20px 0;
+  text-align: center;
+   
+}
+
+.social {
+  display: block;
+  text-align: center;
+}
+
+img {
+  
+  height: 20px;
+  display: inline;
+}
+
+img.fb {
+  padding-left: 20px;
+}
+
+.copyright {
+  color: #fff;
+  margin: 0 auto;
+  display: block;
+  padding: 20px 0 20px 0;
+  text-align: center;
+}
 
 
 
