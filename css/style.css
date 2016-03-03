@@ -73,7 +73,7 @@ ul{
 }
 
 li{
-
+  list-style: disc;
 }
 
 #testimonial{
@@ -92,6 +92,7 @@ h3{
   line-height: 25px;
   width: 200px;
   text-align: center;
+  margin: auto;
 }
 
 .amanda{
@@ -140,6 +141,9 @@ p{
   color: white;
   font-size: 9px;
   font-weight: 600px;
+  margin-top: 20px;
+  width: 310px;
+  line-height: 15px;
 }
 
 
