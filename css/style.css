@@ -46,14 +46,29 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+    color: #000;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
 }
 
+p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #606060;
+    text-align: left;
+}
+ul {
+    margin: 20px 0 0 60px;
+    display: inline-block;
+    position: relative;
+    list-style: disc;
+    text-align: left;
+    color: #606060;
+}
+li {
+    margin-top: 6px;
+}
 
 /******************************************
 /* LAYOUT
@@ -61,23 +76,116 @@ body {
 
 /* Center the container */
 .container {
-  width: 960px;
   margin: auto;
-  height: 500px;
 }
 
 header {
+    background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+    background-size: cover;
+    height: 300px;
+}
 
+.benefits {
+    padding: 60px 120px;
+    background-color: #f0efef;
+}
+
+.testimonial {
+    padding: 60px 180px;
+    background: url(../images/testimonial_bg.jpg) no-repeat center top;
+    background-size: cover;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    color: #fff;
+}
+.signup {
+    padding: 15px;
+    background-color: #f9e42e;
+    text-align: center;
 }
 
 footer {
+    background-color: #121212;
+    padding: 40px 0 30px 0;
+    text-align: center;
+    color: #fff;
+    font-size: 9px;
+    font-weight: 600;
+}
 
+.center {
+    text-align: center;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
+h1 {
+    font-weight: 800;
+    font-size: 24px;
+    color: #FFF;
+    text-align: left;
+    padding: 40px 120px;
+}
 
+h2 {
+    font-weight: 600;
+    font-size: 24px;
+    color: #FFF;
+    text-align: center;
+}
 
+h3 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #033048;
+    text-align: left;
+}
+
+h4 {
+    font-weight: 800;
+    font-size: 24px;
+    color: #f9e42e;
+    text-align: center;
+}
+
+.btn {
+    background-color: #f9e42e;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 30px auto 0 auto;
+    font-size: 14px;
+    font-weight: 600;
+    color: #033048;
+    text-decoration: none;
+    padding: 5px 30px;
+}
+
+.btn2 {
+    background-color: #033048;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 800;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 30px;
+}
+
+.attribution {
+    font-weight: 600;
+    font-style: normal;
+}
+
+.social-box {
+    margin: 40px 0 30px 0px;
+}
+
+.social-img {
+    height: 20px;
+    margin-left: 30px;
+}
 
