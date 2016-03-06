@@ -46,13 +46,12 @@ Developer @GA in NYC
 /* BASE STYLES
 /*******************************************/
 
-body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+div.img1 {
+     width: 888px;
+     background: url(../images/header_bg.jpg);
+     margin-left: auto;
+     margin-right: auto;
+     height: 600px;
 }
 
 
@@ -67,44 +66,19 @@ body {
   height: 330px;
 }
 
-header {
 
-}
 
-footer {
 
-}
 
-h1.relax {
-  font-size: 24px;
+h2.get {
+  font-size: 34px;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 800;
   text-align: center;
-  color: #f9e42e;
-  margin-top: 200px;
-
-}
-
-h2.sub {
-  font-size: 24px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
-  text-align: center;
-  color: #f9e42e;
-}
-
-div.get {
-  font-size: 14px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 800;
-  text-align: center;
-  color: #033048;
-  background-color: white;
-  margin: 0 auto;
-  width: 200px;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
   border-radius: 5px;
-  padding: 2px 8px 2px 8px;
-  display: box;
 }
 
 div.benefits {
@@ -116,15 +90,6 @@ margin-top: 40px;
 color: white;
 }
 
-ul {
-  font-size: 13px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  color: white;
-  margin-left: 20%;
-  margin-top: 10px;
-  margin-bottom: 50px;
-}
 
 p.body1 {
   font-size: 13px;
@@ -184,6 +149,167 @@ div.copy {
   font-weight: 600;
   color: white;
   text-align: center;
+}
+
+div.relaxr {
+  color: white;
+  font-size: 24px;
+  margin-left: 25%;
+  font-style: 800;
+  margin-top: 0;
+}
+
+h1.top {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+  font-style: 1000;
+  font-size: 36px;
+  margin-left: 12%;
+  margin-top: 0;
+  padding-top: 3%;
+}
+
+h3.getitnow {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 800;
+  width: 200px;
+  background-color: #f9e42e;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8%;
+  padding: 14px;
+  color: #033048;
+  border-radius: 5px;
+}
+
+div.grey {
+  width: 888px;
+  background-color: #D3D3D3; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h4.benefits {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 28px;
+  margin-left: 12%;
+  color: #606161;
+  font-weight: 600;
+  padding-top: 8%;
+}
+
+p.sentence {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  margin-left: 12%;
+  color: #606161;
+  font-weight: 300;
+  padding-top: 3%;
+  width: 467px;
+  line-height: 1.5;
+}
+
+ul {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  margin-left: 12%;
+  color: #606161;
+  font-weight: 300;
+  padding-top: 3%;
+  width: 600px;
+  line-height: 1.5;
+  padding-bottom: 8%;
+}
+
+div.quote {
+  width: 888px;
+  margin-left: auto;
+  margin-right: auto;
+  background: url(../images/testimonial_bg.jpg);
+  margin-top: 0;
+  height: 270px;
+}
+
+p.blockquote {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 26px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: white;
+  font-style: italic;
+  width: 421px;
+  padding-top: 7%;
+  line-height: 1.25;
+}
+
+div.yellowbar {
+  width: 888px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f9e42e;
+  height: 100px;
+  margin-top: -20px;
+}
+
+p.signupnow {
+  margin: auto;
+  background-color: #033048;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  width: 230px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 40px;
+  font-size: 20px;
+  margin-top: -65px;
+}
+
+div.black {
+  width: 888px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  color: #f9e42e;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  font-weight: 800;
+  height: 400px;
+  margin-top: -11px;
+  padding-top: 4%;
+}
+
+div.twitter {
+  background: url(../images/twitter.png);
+  height: 40px;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 18%;
+  left: 45%;
+}
+
+div.facebook {
+  background: url(../images/facebook.png);
+  height: 40px;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 5%;
+  left: 52%;
+}
+
+footer.1 {
+  color: white
+  font-size: 9px;
+  font-family: 'Open Sans', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
 }
 /******************************************
 /* ADDITIONAL STYLES
