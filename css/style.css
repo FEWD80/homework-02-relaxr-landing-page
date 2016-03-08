@@ -61,12 +61,11 @@ body {
 
 /* Center the container */
 .container {
-  width: 100%;
+  width: 960px;
   height: 500px;
   margin: 0 auto;
   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
   background-size: cover;
-  float: left;
 }
 
 header {
