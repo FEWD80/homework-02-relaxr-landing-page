@@ -191,10 +191,11 @@ h3 {
 }
 
 #facebook {
-  float: both;
+  float: left;
 }
 
 #copyright {
+  clear: both;
   position: relative;
   top: 30px;
   text-align: center;
