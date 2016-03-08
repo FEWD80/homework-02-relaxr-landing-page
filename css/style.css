@@ -1,14 +1,9 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
+Project Name: Relaxr Homepage
+Client: Relaxr Client
+Author: Bella Ibrahim
 Developer @GA in NYC
 */
-
-
-/******************************************
-/* SETUP
-/*******************************************/
 
 /* Box Model Hack */
 * {
@@ -45,39 +40,156 @@ Developer @GA in NYC
 /* BASE STYLES
 /*******************************************/
 
-body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
-}
-
-
-/******************************************
-/* LAYOUT
-/*******************************************/
-
-/* Center the container */
 .container {
   width: 960px;
   margin: auto;
   height: 500px;
+  font-family: 'open sans', sans-serif;
+  color: white;
+}
+
+body {
+ color: #000;
+ font-size: 12px;
+ line-height: 1.4;
+ font-family: Helvetica, Arial, sans-serif;
+
 }
 
 header {
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  margin: 0px auto;
+  padding: 40px;
+  }
 
+h1 {
+  font-size: 24px;
+  font-weight: 800;
+  padding-left: 50px;
+  text-align: left;
+  margin-bottom: 120px;
+}
+
+.tagline {
+margin: 0 auto;
+text-align: center;
+margin-bottom: 100px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 80px;
+}
+
+.cta1 {
+  font-size: 14px;
+  font-weight: 800;
+  color: #121212;
+  text-decoration: none;
+  background: #f9e42e;
+  padding: 10px 50px;
+  border-radius: 5px;
+  border: none;
+  display: inline-block;
+  text-align: center;
+}
+
+.benefits {
+  background-color: #f0efef;
+  color: #121212;
+  padding: 50px 0px 50px 50px;
+  line-height: 1.5;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.benefits > p, ul {
+  font-weight: 400;
+  font-size: 13px;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+
+.benefits > ul {
+  text-indent: 40px;
+  list-style: disc;
+  list-style-position: inside;
+}
+
+
+.testimonial {
+  text-align: center;
+  background: url(../images/testimonial_bg.jpg);
+  padding: 50px;
+}
+
+p.quote {
+  width: 45%;
+  display: inline-block;
+  text-align: center;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+p.name {
+  font-weight: 600;
+  font-size: 18px;
+  padding: 20px;
+}
+
+.sign-up {
+  background: #f9e42e;
+  padding: 20px;
+  text-align: center;
+
+}
+
+a.sign-up {
+  background-color: #f9e42e;
+  font-size: 12px;
+  font-weight: 800;
+  text-decoration: none;
+  background: #033048;
+  padding: 10px 50px;
+  border-radius: 5px;
+  border: none;
+  display: inline-block;
+  text-align: center;
 }
 
 footer {
-
+  background: #121212;
+  text-align: center;
+  padding: 20px;
 }
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+p.logo {
+  font-weight: 800;
+  font-size: 24px;
+  color: #f9e42e;
+  padding-bottom: 20px;
+}
 
+footer > p.social {
+display: inline;
+}
 
+a.foot {
+  padding: 20px;
+}
 
-
+.legal {
+  padding-top: 20px;
+  font-weight: 600;
+  font-size: 9px;
+}
