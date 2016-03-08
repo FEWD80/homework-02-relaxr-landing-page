@@ -49,9 +49,9 @@ body {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+     font-family: 'Open Sans', sans-serif;
+     /*background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+     background-size: cover;*/
 }
 
 
@@ -62,22 +62,215 @@ body {
 /* Center the container */
 .container {
   width: 960px;
-  margin: auto;
   height: 500px;
+  margin: 0 auto;
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
 }
 
 header {
+  height: 500px;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-left: 40px;
+}
+
+.blocktwo {
+  width: 100%;
+  background-color: #f0efef;
+  background-size: cover;
+  margin: auto;
+  height: 330px; 
+  float: left;
+  display: inline-block;
+}
+
+article {
+  width: 60%;
+  margin-top: 0px;
+  margin-left: 40px;
+  padding-top: 50px;
+}
+
+.blockthree {
+  width: 100%;
+  background: url(../images/testimonial_bg.jpg) no-repeat center;
+  background-size: cover;
+  margin: 0 auto;
+  height: auto; 
+  display: inline-block;
 
 }
 
-footer {
+section {
+  width: 35%;
+  padding-top: 50px;
+  margin: auto;
+}
 
+.blockfour {
+  width: 100%;
+  background-color: #f9e42e;
+  background-size: cover;
+  margin: 0 auto;
+  height: 100px; 
+  float: left;
+  display: inline-block;
+  padding-top: 40px
+}
+
+footer {
+  background-color: #121212;
+  width: 100%;
+  margin: 0 auto;
+  display: inline-block;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
+h1 {
+  font-weight: 800;
+  font-size: 24px;
+  color: #FFF;
+}
 
+footer h1 {
+  color: #f9e42e;
+  text-align: center;
+  margin-top: 40px;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 24px;
+  color: #FFF;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #033048;
+}
+
+h4 {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 18px;
+  color: #FFF;
+  text-align: center;
+}
+
+h5 {
+  font-weight: 600;
+  font-size: 18px;
+  color: #FFF;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+p {
+  font-size: 13px;
+  font-weight: 300;
+  color: #606161;
+  padding-left: 5px;
+  padding-top: 13px; 
+}
+
+footer p {
+  font-size: 9px;
+  font-weight: 600;
+  color: #FFF;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+ul li {
+  font-size: 13px;
+  font-weight: 300;
+  color: #606161;
+  margin-top: 20px;
+  margin-left: 65px;
+}
+
+.socialmedia {
+  margin: 40px auto 10px auto;
+  width: 100px;
+  height: 50px;
+  display: block;
+}
+
+.facebook {
+  height: 37px;
+  width: 17px;
+  margin-left: 20px;
+  float: left;
+}
+
+.twitter {
+  height: 33px;
+  width: 43px;
+  margin-left: 5px;
+  float: left;
+}
+
+/*Link at top of landing page*/
+
+div .btn {
+  font-size: 14px;
+  font-weight: 800;
+  border: 5px solid #f9e42e;
+  border-radius: 6px;
+  background-color: #f9e42e;
+  text-align: center;
+  margin: 0% 40%;
+}   
+
+div .btn a:link {
+  color: #121212;
+  text-decoration: none;
+}
+
+div .btn a:visited {
+  color: #121212;
+  text-decoration: none;
+}
+
+div .btn a:hover {
+  color: #121212;
+  text-decoration: none;
+}
+
+
+/*Link at bottom of landing page*/
+
+div .btn2 {
+  font-size: 12px;
+  font-weight: 800;
+  border: 5px solid #033048;
+  border-radius: 6px;
+  background-color: #033048;
+  text-align: center;
+  margin: 0% 40%;
+}   
+
+div .btn2 a:link {
+  color: #FFF;
+  text-decoration: none;
+}
+
+div .btn2 a:visited {
+  color: #FFF;
+  text-decoration: none;
+}
+
+div .btn2 a:hover {
+  color: #FFF;
+  text-decoration: none;
+}
 
 
