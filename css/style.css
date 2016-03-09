@@ -47,7 +47,6 @@ Developer @GA in NYC
 /******************************************/
 
 body {
-     background: #f0efef;
      color: #fff;
      font-size: 10px;
      line-height: 1.4;
@@ -61,7 +60,7 @@ LAYOUT
 /******************************************/
 
 #container {
-  width: 100%;
+  width: 960px;
   margin: auto;
 }
 
@@ -82,7 +81,7 @@ h1 {
 }
 
 h2 {
-  font-size: 4.8em;
+  font-size: 4.4em;
   font-weight: 400;
   padding: 50px 50px;
 
@@ -118,7 +117,7 @@ section {
 section .text {
   width: 750px;
   position: relative;
-  left: -110px;
+  left: 20px;
   padding-top: 50px;
   margin: auto;
 }
@@ -141,7 +140,6 @@ ul {
   font-weight: 300;
   font-size: 2.8em;
   text-align: left;
-  padding-right: 60px;
   margin: 40px 100px;
   line-height: 1.5;
 }
