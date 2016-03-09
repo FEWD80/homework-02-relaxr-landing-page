@@ -1,10 +1,9 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
+Project Name: Landing Page
+Client: Relaxr
+Author: Krizia Fernando
 Developer @GA in NYC
 */
-
 
 /******************************************
 /* SETUP
@@ -17,7 +16,7 @@ Developer @GA in NYC
      box-sizing: border-box; /* IE */
 }
 
-/* Clear fix hack */
+/* Clear fix hack 
 .clearfix:after {
      content: ".";
      display: block;
@@ -33,51 +32,205 @@ Developer @GA in NYC
 
 .alignright {
   float: right;
-  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+  padding: 0 0 10px 10px; /* note the padding around a right floated image 
 }
 
 .alignleft {
   float: left;
-  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+  padding: 0 10px 10px 0; /* note the padding around a left floated image
 }
+
+*/
 
 /******************************************
 /* BASE STYLES
-/*******************************************/
+/******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
+     color: #fff;
+     font-size: 10px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+     font-family: 'Open Sans', sans-serif;
+     background-size: cover;
+     text-align: center;
 }
 
-
 /******************************************
-/* LAYOUT
-/*******************************************/
+LAYOUT
+/******************************************/
 
-/* Center the container */
-.container {
+#container {
   width: 960px;
   margin: auto;
-  height: 500px;
 }
+
+/* HEADER */
 
 header {
+  background: url(../images/header_bg.jpg);
+  background-position: center top;
+  background-size: cover;
+  height: 648px;
+}
+
+h1 {
+  font-size: 4.5em;
+  font-weight: 800;
+  text-align: left;
+  padding: 30px 120px;
+}
+
+h2 {
+  font-size: 4.4em;
+  font-weight: 400;
+  padding: 50px 50px;
 
 }
+
+.button1 {
+  background: #f9e42e;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 32px;
+  margin: 15px 0;
+  width: 250px;
+  height: 60px;
+}
+
+.button1 h4 {
+  font-weight: 600;
+  color: #033048;
+  font-size: 2.5em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* BENEFITS */
+
+section {
+  background: #f0efef;
+  color: #606161;
+  width: 100%;
+  height: 614px;
+  line-height: 1.7;
+}
+
+section .text {
+  width: 750px;
+  position: relative;
+  left: 20px;
+  padding-top: 50px;
+  margin: auto;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 4em;
+  color: #033048;
+  text-align: left;
+}
+
+p {
+  font-weight: 300;
+  font-size: 2.7em;
+  text-align: left;
+  padding-right: 60px;
+}
+
+ul {
+  font-weight: 300;
+  font-size: 2.8em;
+  text-align: left;
+  margin: 40px 100px;
+  line-height: 1.5;
+}
+
+/* TESTIMONIAL */
+
+blockquote {
+  background: url(../images/testimonial_bg.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 395px;
+}
+
+blockquote .text {
+  width: 750px;
+  margin: auto;
+  padding: 80px;
+
+}
+
+.italic {
+  font-style: italic;
+  font-weight: 300;
+  font-size: 3.2em;
+  text-align: center;
+}
+
+.bold {
+  font-weight: 600;
+  font-size: 3.2em;
+  text-align: center;
+}
+
+/*SIGN UP*/
+
+#register {
+  
+  background: #f9e42e;
+  height: 120px;
+  width: 100%
+}
+
+.button2 {
+  background: #033048;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 30px;
+  width: 300px;
+  height: 60px;
+  margin: 30px 0;
+}
+
+.button2 h4 {
+  font-size: 2em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  color: #fff;
+}
+
+/*FOOTER*/
 
 footer {
-
+  width: 100%;
+  background: #333;
+  color: #606161;
+  height: 345px;
 }
 
+footer h1 {
+  font-size: 4.5em;
+  font-weight: 800;
+  color: #f9e42e;
+  text-align: center;
+  padding-top: 60px;
+}
+
+footer img {
+  height: 30px;
+  margin: 20px 20px;
+}
+
+footer h5 {
+  font-size: 1.8em;
+  font-weight: 300;
+  text-align: center;
+  color: #fff;
+  padding: 45px 0;
+}
 /******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
-
-
+ADDITIONAL STYLES
+*****************************************/
 
 
