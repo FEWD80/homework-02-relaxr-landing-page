@@ -60,8 +60,7 @@ body {
 LAYOUT
 /******************************************/
 
-/* Center the container */
-.container {
+#container {
   width: 100%;
   margin: auto;
 }
@@ -86,8 +85,7 @@ h2 {
   font-size: 4.8em;
   font-weight: 400;
   padding: 50px 50px;
- /* width: 900px;
-  margin: auto;*/
+
 }
 
 .button1 {
@@ -162,7 +160,7 @@ blockquote .text {
   width: 750px;
   margin: auto;
   padding: 80px;
-  margin: auto;
+
 }
 
 .italic {
@@ -181,6 +179,7 @@ blockquote .text {
 /*SIGN UP*/
 
 #register {
+  
   background: #f9e42e;
   height: 120px;
   width: 100%
@@ -206,6 +205,7 @@ blockquote .text {
 /*FOOTER*/
 
 footer {
+  width: 100%;
   background: #333;
   color: #606161;
   height: 345px;
