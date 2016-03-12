@@ -6,7 +6,7 @@ header{
   background: url(../images/header_bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 850px;
+  height: 700px;
 }
 
 .container{
@@ -140,8 +140,8 @@ img{
 p{
   color: white;
   font-size: 9px;
-  font-weight: 600px;
-  margin-top: 20px;
+  font-weight: 600;
+  margin: 0 auto;
   width: 310px;
   line-height: 15px;
 }
