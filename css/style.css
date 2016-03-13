@@ -172,7 +172,6 @@ ul li {
       background-color: #121212;
       color: #f9e42e;
       font-size: 24px;
-      font-family: 'Open Sans', sans-serif;
       font-weight: 800;
       height:250px;
       text-align: center;
@@ -181,7 +180,6 @@ ul li {
 
 .social {
       padding: 20px;
-      size: 80%;
       margin-left:10px;
       margin-right: 10px;
 }
