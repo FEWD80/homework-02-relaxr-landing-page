@@ -43,6 +43,7 @@ body {
 
 .benefits {
   padding: 30px 50px;
+  font-size: 20px;
 }
 
 .benefits h3 {
@@ -57,11 +58,37 @@ body {
   width: 500px;
 }
 
+.quote {
+  background: url(../images/testimonial_bg.jpg);
+  background-size: cover;
+  color: white;
+  height: 200px;
+  font-size: 24px;
+  text-align: center;
+  padding: 20px 200px;
+}
+
+.quoteText {
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.quote h4 {
+  margin: 0;
+  font-weight: normal;
+}
+
 .footer {
   background: black;
   color: white;
   text-align: center;
   padding: 40px 0px;
+}
+
+.bottom h2 {
+  color: yellow;
+  font-size: 36px;
+  margin: 20px 0;
 }
 
 .twitter,
