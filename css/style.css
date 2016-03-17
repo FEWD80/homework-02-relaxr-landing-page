@@ -78,6 +78,22 @@ body {
   font-weight: normal;
 }
 
+.signUp {
+  background: yellow;
+  text-align: center;
+  padding: 8px 0;
+}
+
+.signUpButton {
+  background: navy;
+  color: white;
+  width: 200px;
+  text-align: center;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 4px;
+}
+
 .footer {
   background: black;
   color: white;
