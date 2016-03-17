@@ -21,6 +21,9 @@ body {
 
 .top h2 {
   text-align: center;
+  margin: 70px 0;
+  font-size: 36px;
+  font-weight: lighter;
 }
 
 .top h1 {
@@ -30,11 +33,13 @@ body {
 .getItNowButton {
   background: yellow;
   color: black;
-  width: 100px;
+  width: 200px;
   text-align: center;
   margin: 0 auto;
   padding: 10px;
   border-radius: 4px;
+  font-weight: bold;
+  font-size: 24px;
 }
 
 .benefits {
