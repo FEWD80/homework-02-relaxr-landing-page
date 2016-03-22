@@ -1,7 +1,7 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
+Project Name: Relaxr Landing Page
+Client: Relaxr
+Author: Jason Lee
 Developer @GA in NYC
 */
 
@@ -35,7 +35,7 @@ Developer @GA in NYC
   float: right;
   padding: 0 0 10px 10px; /* note the padding around a right floated image */
 }
-
+/**/
 .alignleft {
   float: left;
   padding: 0 10px 10px 0; /* note the padding around a left floated image */
@@ -46,32 +46,179 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+ /* color: #000;*/
+  font-size: 12px;
+  line-height: 1.4;
+  font-family: 'Open Sans', sans-serif;
+  background-size: cover;
+  text-align:center;
+  width:1260px;
+
+}
+header {
+  background: url(../images/header_bg.jpg) 
+  no-repeat center top rgb(134,141,157);
+
 }
 
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-
 /* Center the container */
-.container {
+/**/
+
+h1 {
+ 
+  font-size: 24px;
+  font-weight: 900;
+  padding-top: 100px;
+  padding-left: 190px;
+  color: white;
+  text-align:left;
+}
+
+h2 {
+ 
+  text-align: center;
+  font-size: 24px;
+  line-height: .5;
+  font-weight: 550;
+  color: white;
+  padding-top:100px;
+
+
+}
+
+h3 {
+  background: #f0efef;
+  color: #10014C;
+  font-size: 20px;
+  font-weight:600;
+  padding-top:40px;
+  padding-left: 190px;
+  text-align: left;
+
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 700px;
+  color: yellow;
+}
+
+section {
+  line-height: 1.7;
+  clear:both;
+}
+
+p {
+  font-size: 13px;
+
+}
+
+/*#container {
   width: 960px;
   margin: auto;
   height: 500px;
+  text-align:center;
+
+}*/
+
+
+.middle {
+
+    background: #f0efef;
+    color: #606161;
+    text-align:left;
+    clear:both;
+    
+    padding-top:25px;
+    padding-left: 190px;
+    padding-right:390px;
+  
+
 }
 
-header {
+.assistant {
+  font-size: 13px;
+  font-weight: 100;
+}
+.list {
 
+    background: #f0efef;
+/*    color: #10014C;*/
+    text-align:left;
+    font-size: 13px;
+    font-weight: 100;
+    padding:50px;
+    padding-left: 100px;
+    padding-right:100px;
+
+
+}
+
+.getItNow { 
+
+  color: #10014C;
+  font-size: 14px;
+  background: yellow;
+  font-weight: 800;
+  border-radius: 5%;
+  padding:12px 60px;
+  margin-bottom: 140px;
+  margin-top: 100px;
+
+}
+
+.section3 {
+    top:200px;
+    font-size: 32px;
+    padding-left: 10px;
+    clear:both;
+    background: url(../images/testimonial_bg.jpg);
+    height: 300px;
+
+}
+
+.list {
+  list-style: disc;
+  color: #606161;
+}
+
+.italic {
+  font-style: italic;
+  font-size: 18px;
+  font-weight: 900;
+  color:white;
+  padding: 50px 100px;
+}
+
+.bold {
+  font-size: 18px;
+  font-weight:750;
+  color:white;
+}
+
+.signUpNow {
+  color: white;
+  font-size: 14px;
+  background: #033048;
+  font-weight: 700;
+  border-radius: 5px;
+  padding:8px 60px;
+  height: 50px;
+  width: 200px;
+
+}
+
+.bottom-bar {
+  background-color: yellow;
+  padding:20px;
 }
 
 footer {
-
+background-color: #121212;
 }
 
 /******************************************
