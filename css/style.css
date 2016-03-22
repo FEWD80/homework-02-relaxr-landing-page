@@ -103,8 +103,15 @@ h3 {
 
 h4 {
   font-size: 24px;
+  font-weight: 700;
+  color: #033048;
+}
+
+h5 {
+   font-size: 24px;
   font-weight: 700px;
-  color: yellow;
+  color:yellow;
+
 }
 
 section {
@@ -117,6 +124,9 @@ p {
 
 }
 
+img {
+  padding:50px;
+}
 /*#container {
   width: 960px;
   margin: auto;
@@ -164,10 +174,12 @@ p {
   font-size: 14px;
   background: yellow;
   font-weight: 800;
-  border-radius: 5%;
+  border-radius: 2%;
   padding:12px 60px;
   margin-bottom: 140px;
   margin-top: 100px;
+  border:none;
+  width:250px;
 
 }
 
@@ -208,17 +220,28 @@ p {
   border-radius: 5px;
   padding:8px 60px;
   height: 50px;
-  width: 200px;
+  width: 250px;
+  border:none;
 
 }
 
 .bottom-bar {
   background-color: yellow;
   padding:20px;
+
+}
+
+#footer {
+
+
 }
 
 footer {
 background-color: #121212;
+height: 275px;
+padding:35px;
+color:white;
+clear:both;
 }
 
 /******************************************
