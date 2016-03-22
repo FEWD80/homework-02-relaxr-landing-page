@@ -158,11 +158,18 @@ h3 {
   color: #013049;
 }
 
+p.left {
+  margin-top: 0px;
+  font-size: 26px;
+  text-align: left;
+  font-weight: lighter;
+  color: #666;
+}
 
 p {
   margin-top: 0px;
   font-size: 26px;
-  text-align: left;
+  text-align: center;
   font-weight: lighter;
   color: #666;
 }
@@ -191,7 +198,6 @@ ul {
     text-decoration: none;
     font-weight: bold;
     margin-top: 70px;
-    margin-left: 330px;
     font-size: 30px;
     cursor: pointer;
     border-radius: 5px;
@@ -206,7 +212,6 @@ ul {
     text-align: center;
     font-weight: bold;
     margin-top: 30px;
-    margin-left: 330px;
     font-size: 30px;
     cursor: pointer;
     border-radius: 5px;
@@ -221,7 +226,6 @@ ul {
   margin: 0px auto 0px auto;
 }
 
-</style>
 
 
 /******************************************
