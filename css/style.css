@@ -1,14 +1,15 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
+Project Name: Relaxr Landing Page
+Client: Relaxr
+Author: Henry Spethmann
 Developer @GA in NYC
 */
-
 
 /******************************************
 /* SETUP
 /*******************************************/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,600,800);
 
 /* Box Model Hack */
 * {
@@ -45,14 +46,14 @@ Developer @GA in NYC
 /* BASE STYLES
 /*******************************************/
 
-body {
+/*body {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
      background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
-}
+     background-size: cover;
+}*/
 
 
 /******************************************
@@ -67,17 +68,145 @@ body {
 }
 
 header {
+  padding-top:25px;
+  padding-left: 50px;
+  height: 400px;
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  text-align: center;
+}
 
+.headerbutton {
+  background-color: #f9e42e;
+  border-radius: 5px;
+  border: 0px;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  color: #033048;
+  padding: 10px 40px;
+  margin: 0;
+}
+.header1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#logo {
+  font-weight: 800;
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  padding-bottom: 30px;
+  color: white;
+}
+
+.benefits {
+  background-color: #f0efef;
+  padding: 50px;
+}
+
+.benefits > h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #033048;
+  padding-bottom: 15px;
+}
+
+.benefits > p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  color:  #606161;
+  padding-bottom: 30px;
+}
+
+.benefits li {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  color:  #606161;
+  line-height: 20px;
+  padding-left: 50px;
+}
+
+.quote {
+  padding: 50px;
+  height: 200px;
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  text-align: center;
+}
+
+.quote > h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 300 italic;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.quote > h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+}
+
+.signup {
+  background-color: #f9e42e;
+  text-align: center;
+  height: 100px;
+  padding: 35px;
+}
+
+.signup > button {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+  color: white;
+  background-color: #033048;
+  border-radius: 5px;
+  border: 0px;
+  padding: 10px 40px;
 }
 
 footer {
-
+  background-color: black;
+  height: 250px;
+  text-align: center;
 }
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+.foot > h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  color: #f9e42e;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
 
+.foot > img {
+  padding-top: 20px;
+  padding: 5px; 
+  padding-bottom: 20px;
+}
+
+.foot p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 9px;
+  font-weight: 600;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
 
 
 
